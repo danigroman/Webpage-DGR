@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Articles and Publications</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('#sendButton').on('click', function (event) {
+        var sendButton = $('#sendButton');
+        sendButton.css('background-color', 'green');
+        setTimeout(function () {
+          sendButton.css('background-color', '');
+        }, 1000);
+      });
+    });
+  </script>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="professional_site.html">Professional Site</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="professional_site.html">Resume</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="photography.html">Photography</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="articles.html">Articles/Publications</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h1 class="display-4">Articles/Publications</h1>
+    <div class="row">
+      <div class="col-12 col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Rescuers race to free miners trapped in flooded mine in Mexico - 2022</h5>
+            <p class="card-text">Ten miners have been trapped in a flooded coal mine in northern Mexico for over 24 hours, as rescuers battle to reach them...</p>
+            <a href="https://www.cnn.com/2022/08/04/americas/mexico-miners-sabinas-intl-latam/index.html" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Peru PM resigns as investigations target President Castillo - 2021</h5>
+            <p class="card-text">Peruvian Prime Minister Anibal Torres Vasquez has abruptly resigned, becoming the fourth premier...</p>
+            <a href="https://www.cnn.com/2022/08/03/americas/anibal-torres-peru-resignation-intl/index.html" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Brazil charges three men over killings of British journalist and indigenous expert - 2022</h5>
+            <p class="card-text">Authorities in Brazil have charged three men with “aggravated double homicide and concealment of a corpse” following the disappearance...</p>
+            <a href="https://www.cnn.com/2022/07/22/americas/brazillian-prosecutors-dom-philips-bruno-pereira-intl-hnk/index.html" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Los rescatistas trabajan contra reloj para sacar a los mineros atrapados en una mina inundada en México - 2022</h5>
+            <p class="card-text">Diez mineros llevan más de 24 horas atrapados en una mina de carbón inundada en el norte de México, mientras los rescatistas luchan por llegar a ellos...</p>
+            <a href="https://cnnespanol.cnn.com/2022/08/04/rescatistas-mineros-atrapados-mexico-trax/" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mt-5">
+      <h2>Any interesting topics you'd like me to cover? Send a message!</h2>
+      <form id="contactForm">
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <input type="text" class="form-control" id="subject" placeholder="Enter subject">
+        </div>
+        <div class="form-group">
+          <label for="messageBody">Message</label>
+          <textarea class="form-control" id="messageBody" rows="4" placeholder="Enter your message"></textarea>
+        </div>
+        <button type="button" class="btn btn-primary" id="sendButton">Send</button>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>

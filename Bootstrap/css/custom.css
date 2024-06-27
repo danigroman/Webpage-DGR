@@ -1,0 +1,34 @@
+.carousel-inner img {
+    width: 100%;
+    height: 500px;
+    object-fit: contain;
+    background-color: lightgray;
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #007BFF;
+    margin: 15px;
+  }
+  
+
+.nav-link {
+    color: #ffffffc6 !important;
+}
+
+.navbar-brand {
+    color: #0a66c2 !important;
+}
+
+.list-group-item {
+    background-color: #f8f9fa;
+    border-color: #ddd;
+}
+
+.card{
+    margin: 20px;
+}
+

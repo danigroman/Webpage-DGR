@@ -1,0 +1,73 @@
+/* General styles for all pages */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    background-color: #f4f4f4;
+}
+
+h1, h2, h3 {
+    font-family: 'Georgia', serif;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+a {
+    color: #0022ff;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #b40ce7;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #6c80ff;
+}
+
+a:active {
+    color: #ffdd00;
+}
+
+#my_background, #my_interests, section {
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 2px solid #035d12;
+}
+
+#my_background {
+    background-color: #905ac3;
+}
+
+#my_interests {
+    background-color: #d7508d;
+}
+
+#my_background h2, #my_interests h2 {
+    color: #5aba5d;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.article {
+    display: none;
+    transition: opacity 0.5s;
+    position: relative;
+}
+
+.article img {
+    cursor: pointer;
+}

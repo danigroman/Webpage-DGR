@@ -1,0 +1,21 @@
+{
+  "name": "Daniela Roman",
+  "nyu_net_id": "dgr295",
+  "site_url": "http://i6.cims.nyu.edu/~dgr295",
+  "jquery_settings": {
+    "content_change": {
+      "trigger_element_selector": "input#button1",
+      "trigger_event": "mouseover",
+      "target_element_selector": "p#paragraph1"
+    },
+    "image_swap": {
+      "trigger_element_selector": "img#image1"
+    },
+    "animation": {
+      "trigger_element_selector": "input#button2",
+      "trigger_event": "click",
+      "target_element_selector": "p#paragraph2"
+    }
+  },
+  "clickable_prototype_url": "https://web-summer-2024.invisionapp.com/console/share/7D3UTX2PK56"
+}
